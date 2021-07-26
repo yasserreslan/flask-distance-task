@@ -1,0 +1,9 @@
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://maps.googleapis.com:443 "GET /maps/api/geocode/json?address=Moscow+Ring+Road&bounds=&components=&region=&language=&key=AIzaSyBezdjeZrozb-USWoJRjynk-MqYPthvY6o HTTP/1.1" 200 None
+INFO:geocoder.base:Requested https://maps.googleapis.com/maps/api/geocode/json?address=Moscow+Ring+Road&bounds=&components=&region=&language=&key=AIzaSyBezdjeZrozb-USWoJRjynk-MqYPthvY6o
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): maps.googleapis.com:443
+DEBUG:urllib3.connectionpool:https://maps.googleapis.com:443 "GET /maps/api/geocode/json?address=Beirut%2C+Lebanon&bounds=&components=&region=&language=&key=AIzaSyBezdjeZrozb-USWoJRjynk-MqYPthvY6o HTTP/1.1" 200 None
+INFO:geocoder.base:Requested https://maps.googleapis.com/maps/api/geocode/json?address=Beirut%2C+Lebanon&bounds=&components=&region=&language=&key=AIzaSyBezdjeZrozb-USWoJRjynk-MqYPthvY6o
+INFO:app:Distance between Moscow Ring Road and Beirut, Lebanon = 2428.19 kilometers, entered as Beirut, Lebanon
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2021 07:11:25] "[32mPOST /api/location HTTP/1.1[0m" 302 -
+INFO:werkzeug:127.0.0.1 - - [26/Jul/2021 07:11:25] "[37mGET / HTTP/1.1[0m" 200 -

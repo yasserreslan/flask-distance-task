@@ -1,0 +1,4 @@
+Flask==1.1.2
+geocoder==1.38.1
+numpy==1.19.4
+pytest==6.2.4
